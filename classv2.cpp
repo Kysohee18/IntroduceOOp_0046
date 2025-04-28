@@ -12,5 +12,22 @@ class persegi_panjang{
         cout<<"masukkan lebar";
         cin >>lebar;
         }
-   
+        private:
+        float luas(int p, int l){
+            return p*l;
+
+        }
+
+    public:
+        void outputdata(){
+            cout<<"menampilkan hasil ="<< luas(panjang, lebar);
+
+        }
+};
+
+int main(){
+    persegi_panjang pp;
+    pp.inputdata();
+    pp.outputdata();
+    
 }
