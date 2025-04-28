@@ -25,4 +25,14 @@ public:
     }
     
     
+    };
+    int main()
+    {
+        Mobil avanza ;
+        avanza.input_data();
+        cout<<"jenis mobil = " << avanza.Merkmobil <<endl;
+        cout<<"tipe mobil  = " << avanza.Tipemobil <<endl;
+    
+    
+    }
     
