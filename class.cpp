@@ -5,4 +5,6 @@ class Mobil
 {
 public:
     string Merkmobil, Tipemobil;
-    
+    private:
+    int Hargamobil;
+
