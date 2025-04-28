@@ -18,4 +18,11 @@ public:
         cin >> Hargamobil;
     
     }
+    void  outputdata(){
+        cout <<"hargamobil :" <<Hargamobil <<endl;
+    
+    
+    }
+    
+    
     
